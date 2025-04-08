@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--web sitesinde bütün özel karaterkeri kullanılmasını sağlar-->
+    <meta name="description" content="1 saatte HTML öğren"> <!--descriptionda websitesinin içeriği hakkındaki bilgiler yazılır-->
+    <meta name="keywords" content="DENEMEM"> <!--Anahtar kelime-->
+    <meta name="autor" content="Ömer Yasir Türkyılmaz"> <!--websitesini yazan kişi hakkındaki bilgiler (mail dahil)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--web siteyi açıldığı ekrana göre ayarlar-->
+    <meta http-equiv="refresh" content="60"> <!--websitesinin belli saniyeler aralığında kendini yenilemesini sağlar-->
+    <title>Öğrenim</title>
+    <!---->
+</head>
+<body>  <!--body in içine style="background-color : black" yazarsan arak plan siyah olur-->
+    
+    <h1>Özel yazılım kursu </h1>
+    <!--bu yorum etiketi --> 
+    <hr>
+    <p>burda denemler <br> yapıyoruz</p>
+    <p> hr etiketi çizgili boşluk yapar</p>
+
+    <hr>
+                   <H3> LİNK</H3>
+    <a href="https://www.yilmaztur.com.tr" 
+    target="_blank"
+    title="Yılmaz Tur a gider"
+    >Yılmaz Tur</a>
+    <!--target etiketi sitenin başka sayfada açılmasını sağlar-->
+    <!--title etiketide yazı üstüne gelindeiğinde yazı çıkmasını sağlar-->
+
+    <hr>
+               <h3>RESİM</h3> 
+    <a href="https://www.google.com/search?client=opera-gx&q=göbeklitepe&sourceid=opera&ie=UTF-8&oe=UTF-8">
+    <img src="indir (2).jpeg" width="100px" 
+    alt="göbekli tepe" 
+    title="T taşı">
+    </a>
+
+    <hr>
+                 <h3>SES</h3> 
+    <audio src="ses video/Klasik Gitar-Akustik Gitar FARK.mp3" controls autoplay muted loop></audio>
+    <!--controls yazarsan oynatıcı gelir-->
+    <!--autoplay de siteyi açtığında sesin otomatik başlamasını sağlar-->
+    <!--muted sesi kapalı başlamasını sağlar seteye giren kişi oynatıcıdan açabilir-->
+    <!--loop otomatik başa sarma (döngü)-->
+
+    <hr>
+               <h3>VİDEO</h3> 
+    <video src="ses video/Yuichi Katagiri.mp4" width="200px" controls muted></video>
+    <!--sesde olan komutlar bunun içinde geçerli-->
+
+    <hr>
+               <h3>METİN </h3>
+    <p>bu normal bir yazı</p>
+    <p>bu <b>kalın</b> bir yazı</p>
+    <p>bu <i>italik</i> bir yazı</p>
+    <p>bu <big>büyük</big> bir yazı</p>
+    <p>bu <small>küçük</small> bir yazı</p>
+    <p>bu <sub>alt sembol</sub> bir yazı</p>
+    <p>bu <sup> üst sembol</sup> bir yazı</p>
+    <p>bu <ins>altı çizzik</ins> bir yazı</p>
+    <p>bu <del>üstü çizik</del> bir yazı</p>
+    <p>bu <mark>fosforlu</mark> bir yazı</p>
+
+    <hr>
+            <h3>LİSTE</h3>
+    <h4>Sırasız Liste</h4>  
+    <ul>
+        <li>Süt</li>
+        <li>Tavuk</li>
+        <li>Kahvaltılık
+            <ol>
+                <li>peynir</li>
+                <li>zeytin</li>
+            </ol>
+        </li>
+    </ul>
+    <!--li nin içinde ul etiketi açarsan sırasız liste altına sıralı liste açmış olursun-->
+    
+    <h4>Sıralı liste</h4>
+    <ol type="I">
+        <li>Tavuğu ısıt</li>
+        <li>Yağı tavaya Sür</li>
+        <li>Yumurtayı pişir</li>
+    </ol>
+    <!--listelemek istediğimiz şeyi li etiketine alıyoruz-->
+    <!--ol etiketinin içinde type açarsan sıralı listeyi roman alf. , Alfabe vb gibi sıralya bilirsin-->
+    <h4>Açıklama Listesi</h4>
+    <dl>
+        <dt>
+            <!--Açıklamak istediğimiz terim-->  HTML
+        </dt>
+        <dd>
+            <!--açıklaması--> Web sitenin elemanlarını göstermeye yarar
+        </dd>
+        <dt>Css</dt>
+        <dd>Web sitesini görünümünü düzenlemeye yarar</dd>
+    </dl>
+
+    <hr>
+       <h3>TABLO</h3>
+       <table bgcolor="black" width="560">
+        <tr bgcolor="grey">
+            <th width="80">Pazartesi</th>
+            <th width="80">Salı</th>
+            <th width="80">Çarşamba</th>
+            <th width="80">Perşembe</th>
+            <th width="80">Cuma</th>
+            <th width="80">Cumartesi</th>
+            <th width="80">Pazar</th>
+            <!--th lerdeki açıların toplamlarını table deki width e yazıyoruz-->
+        </tr>
+        <tr align="center" bgcolor="lightgrey">
+            <td>9-17</td>
+            <td>9-17</td>
+            <td>9-17</td>
+            <td>9-17</td>
+            <td>9-17</td>
+            <td>Kapalı</td>
+            <td>Kapalı</td>
+        </tr>
+       </table>
+
+       <hr>
+                <h3>Renkler</h3>
+
+       <h1 style="color: blue;">Merhaba!</h1>
+       <h1 style="color:rgb(235, 64, 52)">Merhaba!</h1>
+       <h1 style="color:#4287f5">Merhaba!</h1>
+
+       <p style="background-color: black; color: blue;" >Lorem ipsum dolor sit amet.</p>
+
+       <hr>
+            <h3>Span-Div</h3>
+
+            <div style="background-color: red;">Bu bir div</div>
+            <span style="background-color: green;">Bu bir span</span>
+            <!--div satır kadar , span yazının kapladığı yer kadar yer kaplarlar-->
+
+      <hr>
+           <h3>Meta etiketleri</h3>
+        
+       <p>META ETİKETİ HEAD ETİKETİNİN İÇİNE YAZILIR BİLGİ VERİR</p>
+
+       <hr>
+
+           <h3>Iframe</h3> <!--websitemizde başka websitesi göstermek için kullanılır (reklam)-->
+
+        <iframe src="https://www.wikipedia.org" frameborder="50" width="600" height="600"></iframe> 
+        <!--frameborde=kenarlık-->
+        
+        <hr>
+                <h3>BUTON</h3>
+         
+         <button onclick="tikla()" style="background-color: blueviolet; color: aliceblue; border-radius: 10px;">Tıkla</button>
+        <!--disabled etiketi sayesinde buton kapanıyo ve tıklanmıyo-->
+
+        <p id="yazi">Butona tıkla!</p>
+
+        <script>
+            function tikla()
+            {
+                document.getElementById("yazi").innerHTML="Butona Bastınız!"
+            }
+        </script> <!--bunlar fazla bilgiler javasciprit-->
+
+        <hr>
+             <h3>FORM</h3>
+        <form action="">
+            <label for="isim">Ad:</label>
+            <input type="text" name="isim" id="isim"
+            placeholder="Ömer" required>
+            
+            <br><br>
+
+            <label for="soyad">Soyadı:</label>
+            <input type="text" name="soyad" id="soyad"
+            placeholder="Türkyılmaz" required>
+
+            <br><br>
+
+            <label for="sifre">Şifre:</label>
+            <input type="password" name="sifre" id="sifre"
+            placeholder="********" maxlength="15">
+            
+            <br><br>
+            
+            <label for="eposta">Mail:</label>
+            <input type="email" name="eposta" id="eposta"
+            placeholder="ex@mail.coms" >
+
+            <br><br>
+            
+            <label for="telefon">Tel:</label>
+            <input type="tel" name="telefon" id="telefon"
+            placeholder="(555)-555-55-55" >
+
+            <br><br>
+
+            <label for="tarih">Doğum Tarihi</label>
+            <input type="date" name="tarih" id="tarih">
+
+            <br><br>
+
+            <label for="kardes">Kardeş sayısı</label>
+            <input type="number" name="kardes" id="kardes"
+            minlength="0" maxlength="10">
+
+            <br><br>
+
+            <label for="cinsiyet">Cinsiyet:</label>
+            <label for="kadın">Kadın</label>
+            <input type="radio" name="cinsiyet" id="kadın">
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek">
+
+            <br><br>
+
+            <select name="" id="">
+                <option value="">SSK</option>
+                <option value="">Bağkur</option>
+                <option value="">Emekli Sandığı</option>
+            </select>
+
+            <br><br>
+            <label for="">Aktif Olarak Çalışıyor</label>
+            <input type="checkbox" >
+
+            <br><br>
+            
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            <input type="file" accept=".pdf">
+
+            <br><br>
+
+            <input type="reset" >
+            <input type="submit">
+
+            
+
+
+            
+        </form>
+        
+</body>
+</html>
